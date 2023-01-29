@@ -1,0 +1,1 @@
+(function(){let w=window.open("https://bookmarker.me/#/new-bookmark");let data={url:"",title:""};data.url=document.location.href;data.title=document.title;w.sessionStorage.setItem('__bookmarker_me_new',JSON.stringify(data))})()
